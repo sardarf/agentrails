@@ -1,10 +1,10 @@
-# ProvingGround
+# AgentRails
 
-ProvingGround is safety and testing infrastructure for autonomous and semi-autonomous DeFi agents on Arbitrum.
+AgentRails is safety and testing infrastructure for autonomous and semi-autonomous DeFi agents on Arbitrum.
 
 As AI agents begin to interact with onchain protocols, execution is becoming easier, but safety remains the real bottleneck. Builders need to know whether an agent strategy is profitable, resilient, and risk-aware before allowing it to move real funds.
 
-ProvingGround helps solve this by turning strategy testing into enforceable onchain policy.
+AgentRails helps solve this by turning strategy testing into enforceable onchain policy.
 
 ## Core Idea
 
@@ -16,7 +16,7 @@ Safety is not only shown in a report. It is enforced onchain.
 
 ## What It Does
 
-ProvingGround allows builders to:
+AgentRails allows builders to:
 
 - Define an agent strategy
 - Configure risk limits
@@ -64,18 +64,18 @@ The key demo will show:
 
 1. A developer defining a DeFi agent strategy.
 2. The system running a simple backtest.
-3. ProvingGround generating an Agent Execution Policy.
+3. AgentRails generating an Agent Execution Policy.
 4. The policy being stored in the `PolicyGuard` contract.
 5. A valid agent action being accepted.
 6. An out-of-bounds agent action being rejected onchain.
 
-This demonstrates the main principle of ProvingGround:
+This demonstrates the main principle of AgentRails:
 
 > Safety is enforced by the contract, not promised by the backtest.
 
 ## Why Arbitrum
 
-Arbitrum is a strong environment for DeFi, stablecoin liquidity, and agentic applications. ProvingGround is designed to support safer agentic DeFi by giving builders a way to test, constrain, and audit autonomous strategies before real capital is exposed.
+Arbitrum is a strong environment for DeFi, stablecoin liquidity, and agentic applications. AgentRails is designed to support safer agentic DeFi by giving builders a way to test, constrain, and audit autonomous strategies before real capital is exposed.
 
 ## Status
 
